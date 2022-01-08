@@ -33,7 +33,7 @@ header img {
 
 header h1 {
     font-size: 30px;
-    color: white;
+    color: black;
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
