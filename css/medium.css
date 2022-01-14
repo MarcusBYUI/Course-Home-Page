@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+    #content {
+        margin: 15px auto;
+        padding: 0;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 15px 30px;
+        box-shadow: 3px 3px 20px rgb(185, 185, 185), -3px -3px 20px rgb(185, 185, 185);
+    }
+    header img {
+        height: 200px;
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    footer {
+        box-shadow: 3px 3px 20px rgb(185, 185, 185), -3px -3px 20px rgb(185, 185, 185);
+    }
+    p,
+    li {
+        font-family: "Roboto Slab", Serif;
+        font-size: 16px;
+    }
+}

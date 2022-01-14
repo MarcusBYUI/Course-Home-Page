@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Mono');
 #content {
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 0 15px;
     max-width: 620px;
 }
 
@@ -12,27 +13,25 @@ h2 {
 p,
 li {
     font-family: "Roboto Slab", Serif;
+    font-size: 14px;
 }
 
 header {
-    display: grid;
-    grid-template-columns: 30% 70%;
+    padding: 10px 0;
     background-color: rgb(24, 243, 152);
-    padding: 15px 30px;
     border-radius: 7px;
-    box-shadow: 3px 3px 20px rgb(185, 185, 185), -3px -3px 20px rgb(185, 185, 185);
 }
 
 header img {
-    height: 200px;
     box-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    height: 180px;
     border-radius: 2px;
-    grid-column: 1/2;
-    grid-row: 1/4;
+    margin: 0 auto;
+    display: block;
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 23px;
     color: black;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -41,6 +40,7 @@ header h1 {
 }
 
 h2 {
+    font-size: 15px;
     text-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
 }
 
@@ -69,7 +69,6 @@ footer {
     background-color: rgb(24, 243, 152);
     border-radius: 7px;
     justify-items: center;
-    box-shadow: 3px 3px 20px rgb(185, 185, 185), -3px -3px 20px rgb(185, 185, 185);
 }
 
 .updated {
