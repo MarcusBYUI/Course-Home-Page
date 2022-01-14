@@ -26,6 +26,10 @@ a {
     padding: 0 15px;
 }
 
+a {
+    color: #22223B;
+}
+
 p.description {
     font-family: 'Inconsolata', monospace;
     color: #22223B;
