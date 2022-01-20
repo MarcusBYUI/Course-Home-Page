@@ -4,4 +4,4 @@ document.querySelector(".year").innerHTML = `© ${year} || Marcus A. Ojo-Osasere
 //get last modified
 const string = document.lastModified;
 
-document.querySelector(".year").innerHTML = `© ${year} | Marcus A. Ojo-Osasere | Last Updated: ${string}`
+document.querySelector(".updated").innerHTML = `Last Updated: ${string}`
