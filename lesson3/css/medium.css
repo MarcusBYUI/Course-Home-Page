@@ -1,0 +1,17 @@
+@media only screen and (min-width: 768px) {
+    main {
+        max-width: 768px;
+    }
+    header {
+        grid-template-columns: 100px minmax(150px, auto) auto;
+        padding: 10px 0 10px 50px;
+        text-align: left;
+    }
+    header img {
+        margin: 0;
+        padding-top: 0;
+    }
+    header h3 {
+        padding-left: 5px;
+    }
+}

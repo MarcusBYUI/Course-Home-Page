@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1400px) {
+    main {
+        margin: 0 auto;
+        max-width: 980px;
+    }
+    .home {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    header ul {
+        padding: 0 50px 0 150px;
+    }
+    main p:nth-child(3) {
+        text-align: center;
+    }
+    .persona {
+        display: grid;
+    }
+}
