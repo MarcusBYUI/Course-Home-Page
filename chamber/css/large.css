@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1250px) {
     header {
         grid-template-columns: 40% auto 100px;
         padding: 10px 0 10px 10px;
@@ -15,15 +15,17 @@
         grid-column: 2/3;
         grid-row: 1;
         place-self: center start;
-        width: 100%;
+        width: 80%;
     }
-    .primary ul {
+    nav ul#menu {
         display: grid;
         grid-template-columns: repeat(5, minmax(50px, auto));
         padding: 0;
-        padding-left: 200px;
         padding-right: 100px;
         text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
     }
     .socials {
         grid-column: 3/4;
