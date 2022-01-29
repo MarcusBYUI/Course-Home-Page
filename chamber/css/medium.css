@@ -1,0 +1,72 @@
+@media only screen and (min-width: 768px) {
+    header {
+        grid-template-columns: 55% auto 120px;
+    }
+    nav.open ul {
+        top: 125px;
+    }
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .address {
+        display: grid;
+        grid-template-columns: 130px auto;
+        padding-top: 10px;
+    }
+    .address img {
+        padding-top: 25px;
+        width: 95%;
+    }
+    .contact {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 0;
+    }
+    .fb,
+    .fl {
+        display: none;
+    }
+    .fm {
+        display: block;
+    }
+    /* 
+    MAin */
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero {
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+    .new {
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+    .spot {
+        grid-column: 1/4;
+        grid-row: 3;
+        grid-template-columns: 1fr 1fr;
+    }
+    .spot div:nth-child(3) {
+        display: none;
+    }
+    .spot div:nth-child(1) {
+        margin-right: 3px;
+    }
+    .spot div:nth-child(2) {
+        margin-left: 3px;
+    }
+    .join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4;
+    }
+    .event {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+    .weather {
+        grid-column: 3/4;
+        grid-row: 5;
+    }
+}

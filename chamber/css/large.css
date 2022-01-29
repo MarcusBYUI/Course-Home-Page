@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1400px) {
+    header {
+        grid-template-columns: 40% auto 100px;
+        padding: 10px 0 10px 10px;
+        text-align: left;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    nav button {
+        display: none;
+    }
+    .primary {
+        grid-column: 2/3;
+        grid-row: 1;
+        place-self: center start;
+        width: 100%;
+    }
+    .primary ul {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(50px, auto));
+        padding: 0;
+        padding-left: 200px;
+        padding-right: 100px;
+        text-align: center;
+    }
+    .socials {
+        grid-column: 3/4;
+        padding-right: 35px;
+    }
+    .logo-container {
+        padding-left: 35px;
+    }
+    header ul a {
+        display: inline;
+    }
+    header ul a:hover {
+        padding: 0 5px 5px 3px;
+    }
+    .fm,
+    .fl {
+        display: none;
+    }
+    .fl {
+        display: block;
+    }
+    .credit {
+        width: 1080px;
+    }
+    /* 
+    Main */
+    main {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        grid-gap: 5px;
+        background-color: transparent;
+        padding: 10px;
+        max-width: 1080px;
+    }
+    main>div {
+        padding: 20px 5px;
+    }
+    .event {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .join {
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+    .hero {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+    .new {
+        grid-column: 2/4;
+        grid-row: 3;
+    }
+    .spot {
+        grid-column: 4;
+        grid-row: 1/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        padding: 30px;
+    }
+    .spot div:nth-child(3) {
+        display: block;
+    }
+    .spot div:nth-child(1) {
+        margin-right: 0;
+    }
+    .spot div:nth-child(2) {
+        margin-left: 0;
+    }
+    .join {
+        display: block;
+    }
+}
