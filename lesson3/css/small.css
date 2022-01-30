@@ -37,14 +37,15 @@ header {
 
 header ul {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(50px, auto));
+    display: block;
     padding: 0;
 }
 
 header ul a {
+    display: block;
     text-decoration: none;
     color: #012A4A;
+    line-height: 40px;
 }
 
 header ul a:hover {
