@@ -106,12 +106,6 @@ header ul a:active {
     text-align: center;
 }
 
-header ul a:active {
-    border-bottom: 4px solid #012A4A;
-    color: #012A4A;
-    padding: 0 5px 5px 3px;
-}
-
 .socials img {
     width: 30px;
     padding-top: 10px;
