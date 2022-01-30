@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1080px) {
     header {
         grid-template-columns: 40% auto 100px;
         padding: 10px 0 10px 10px;

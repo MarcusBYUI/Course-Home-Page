@@ -28,7 +28,10 @@ header {
     grid-template-columns: 55% auto 50px;
     padding: 0 5px;
     margin: 0;
-    width: inherit;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 #ham {
