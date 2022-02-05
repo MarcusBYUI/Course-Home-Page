@@ -57,7 +57,7 @@ document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} $
 
 window.addEventListener("load", () => {
     console.log(dateNum);
-    if (dateNum == 1 || dateNum == 5) {
+    if (dateNum == 1 || dateNum == 2) {
         document.querySelector(".banner").style.display = "block";
     } else {
         document.querySelector(".banner").style.display = "none";
