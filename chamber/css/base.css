@@ -132,6 +132,7 @@ header ul a:active {
 .banner {
     grid-column: 1/span 3;
     margin-top: -15px;
+    display: "none";
 }
 
 .banner h4 {
