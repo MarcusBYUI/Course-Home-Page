@@ -31,7 +31,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 2;
 }
 
 #ham {
@@ -152,6 +152,7 @@ main {
     background-color: transparent;
     padding: 10px;
     max-width: 1080px;
+    z-index: 1;
 }
 
 main>div {
