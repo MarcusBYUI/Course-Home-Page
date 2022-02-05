@@ -56,7 +56,6 @@ fLarge.innerHTML = `<strong>&copy; ${year} Uyo Chammber | Ojo-Osasere Marcus | W
 document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
 
 window.addEventListener("load", () => {
-    console.log(dateNum);
     if (dateNum == 1 || dateNum == 2) {
         document.querySelector(".banner").style.display = "block";
     } else {
