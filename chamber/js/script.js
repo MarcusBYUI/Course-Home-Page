@@ -54,3 +54,12 @@ fMed.innerHTML = `<strong>&copy; ${year} Uyo Chammber | Ojo-Osasere Marcus | WDD
 fLarge.innerHTML = `<strong>&copy; ${year} Uyo Chammber | Ojo-Osasere Marcus | WDD 230 Project | Last Modification: ${document.lastModified} </strong>`;
 
 document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
+
+window.addEventListener("load", () => {
+    console.log(dateNum);
+    if (dateNum == 1 || dateNum == 5) {
+        document.querySelector(".banner").style.display = "block";
+    } else {
+        document.querySelector(".banner").style.display = "none";
+    }
+});

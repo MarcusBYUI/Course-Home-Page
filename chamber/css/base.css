@@ -128,10 +128,21 @@ header ul a:active {
     margin-bottom: -10px;
 }
 
+.banner {
+    grid-column: 1/span 3;
+    margin-top: -15px;
+}
+
+.banner h4 {
+    text-align: center;
+    padding: 0;
+}
+
 
 /* Main Section */
 
 main {
+    margin: 10px auto;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: minmax(300px, auto);
