@@ -206,9 +206,11 @@ Main Footer
 
 footer {
     display: grid;
+    padding: 0 5px;
     grid-template-columns: 1fr;
     justify-items: center;
     background-color: white;
+    width: 100%;
 }
 
 .address {
