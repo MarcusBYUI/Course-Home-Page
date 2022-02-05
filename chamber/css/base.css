@@ -25,7 +25,7 @@ a,
 header {
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     padding: 0 5px;
     margin: 0;
     position: sticky;
@@ -38,7 +38,7 @@ header {
     font-size: 24px;
     background-color: transparent;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 #ham span:nth-child(1) {
