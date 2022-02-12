@@ -10,7 +10,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'Bree Serif', serif;
     color: #012A4A;
 }
@@ -91,12 +92,20 @@ nav.open ul {
 
 header ul a {
     display: block;
+    border-bottom: 4px solid white;
     text-decoration: none;
     color: #012A4A;
     padding: 10px 0;
 }
 
 header ul a:hover {
+    border-bottom: 4px solid #012A4A;
+    color: #012A4A;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.active {
     border-bottom: 4px solid #012A4A;
     color: #012A4A;
     padding: 10px 0px;
@@ -147,7 +156,7 @@ main {
     margin: 10px auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: minmax(300px, auto);
+    grid-auto-rows: minmax(200px, auto);
     grid-gap: 5px;
     background-color: transparent;
     padding: 10px;
@@ -158,29 +167,79 @@ main {
 main>div {
     background-color: #2C7DA0;
     color: white;
-    padding: 20px 5px;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .event {
     grid-row: 2;
+    padding: 20px 5px;
 }
 
 .weather {
     grid-row: 3;
+    padding: 0 5px;
+    background-color: white;
+    color: #2C7DA0;
+    padding: 15px 15% 5px 15%;
+}
+
+.weather .icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+}
+
+.weather .icon img {
+    width: 50%;
+    margin: 0 50%;
+}
+
+.weather .icon p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 5px;
+    font-family: monospace;
+}
+
+#temp {
+    font-size: 2.5rem;
+    font-family: 'Dongle';
+}
+
+.weather h5 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.weather p {
+    text-align: center;
+    margin: 0;
+}
+
+.weather :nth-child(3) {
+    text-align: center;
+    color: black;
 }
 
 .join {
     display: none;
+    padding: 20px 5px;
 }
 
 .hero {
     grid-row: 1;
+    background-color: transparent;
+}
+
+main .hero .hero-image img {
+    width: 100%;
 }
 
 .new {
     grid-row: 4;
+    padding: 20px 5px;
 }
 
 .spot {

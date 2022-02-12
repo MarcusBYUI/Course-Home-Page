@@ -62,3 +62,18 @@ window.addEventListener("load", () => {
         document.querySelector(".banner").style.display = "none";
     }
 });
+
+
+// set active
+
+function active() {
+    switch (document.title) {
+        case "Uyo Chamber of Commerce":
+            console.log(document.querySelector("#menu").firstChild);
+            document.querySelector("#home").classList.add("active");
+
+    }
+
+}
+
+active();

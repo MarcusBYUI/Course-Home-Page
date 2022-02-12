@@ -19,7 +19,7 @@
 
     <header>
         <div class="logo-container">
-            <a href="index.html"><img src="images/logo.png" alt="Uyo Chamber of Commerce logo"></a>
+            <a href="index.html"><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"></a>
             <h3>Chamber of Commerce</h3>
         </div>
         <div class="socials">
@@ -29,11 +29,11 @@
         <nav class="primary">
             <button id="ham"><span>&#9776;</span><span>X</span></button>
             <ul id="menu">
-                <li><strong><a href="#">Home</a></strong></li>
-                <li><strong><a href="#">Discover</a></strong></li>
-                <li><strong><a href="#">Directory</a></strong></li>
-                <li><strong><a href="#">Join</a></strong></li>
-                <li><strong><a href="#">Contact</a></strong></li>
+                <li><strong><a id="home" href="#">Home</a></strong></li>
+                <li><strong><a id="discover" href="#">Discover</a></strong></li>
+                <li><strong><a id="directory" href="#">Directory</a></strong></li>
+                <li><strong><a id="join" href="#">Join</a></strong></li>
+                <li><strong><a id="contact" href="#">Contact</a></strong></li>
 
 
             </ul>
@@ -50,9 +50,29 @@
 
     <main>
         <div class="event">Event</div>
-        <div class="weather">Weather</div>
+        <div class="weather">
+            <h5>Weather</h5>
+            <div class="icon">
+                <img src="images/weather.png" alt="weather icon">
+                <p><span id="temp">33</span>°C</p>
+            </div>
+            <p>Partly Cloudy</p>
+            <hr class="temo-div">
+            <p>Wind Speed: <span id="speed">2.5</span>km/h</p>
+            <p id="chill-output">Wind Chill: 2.5km/h</p>
+
+
+
+
+        </div>
         <div class="join">Join</div>
-        <div class="hero">Hero with site name and call to action</div>
+        <div class="hero">
+            <picture class="hero-image">
+                <source media="(max-width: 500px)" srcset="images/hero500.jpg">
+                <source media="(max-width: 1079px)" srcset="images/hero1079.jpg">
+                <img src="images/hero540.jpg" alt="">
+            </picture>
+        </div>
         <div class="new">News Release</div>
         <div class="spot">
             <div class="spotlight1">Spotlight 1</div>
@@ -81,6 +101,8 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+
 </body>
 
 

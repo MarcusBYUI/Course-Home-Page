@@ -38,7 +38,10 @@
         display: inline;
     }
     header ul a:hover {
-        padding: 0 5px 5px 3px;
+        padding: 0;
+    }
+    .active {
+        padding: 0;
     }
     .banner {
         margin-bottom: -7px;
@@ -51,7 +54,7 @@
         display: block;
     }
     .credit {
-        width: 1080px;
+        width: 1280px;
     }
     /* 
     Main */
@@ -59,14 +62,10 @@
         margin: 10px auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(300px, auto);
         grid-gap: 5px;
         background-color: transparent;
         padding: 10px;
-        max-width: 1080px;
-    }
-    main>div {
-        padding: 20px 5px;
+        max-width: 1280px;
     }
     .event {
         grid-column: 1/2;
