@@ -156,7 +156,7 @@ main {
     margin: 10px auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 5px;
     background-color: transparent;
     padding: 10px;

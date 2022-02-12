@@ -54,7 +54,7 @@
         display: block;
     }
     .credit {
-        width: 1280px;
+        width: 1080px;
     }
     /* 
     Main */
@@ -65,7 +65,7 @@
         grid-gap: 5px;
         background-color: transparent;
         padding: 10px;
-        max-width: 1280px;
+        max-width: 1080px;
     }
     .event {
         grid-column: 1/2;
