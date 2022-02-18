@@ -4,21 +4,28 @@ const button = document.querySelector("#submitFav");
 
 button.onclick = function() {
     let myItem = input.value;
-    input.value = "";
+    if (myItem == "") {
 
-    const listItem = document.createElement("li");
-    const listText = document.createElement("p");
-    const listBtn = document.createElement("span");
+        return;
+    } else {
+        input.value = "";
 
-    listItem.appendChild(listText);
-    listText.textContent = myItem;
-    listItem.appendChild(listBtn);
-    listBtn.textContent = "❌";
-    list.appendChild(listItem);
+        const listItem = document.createElement("li");
+        const listText = document.createElement("p");
+        const listBtn = document.createElement("span");
 
-    listBtn.onclick = function(e) {
-        list.removeChild(listItem);
-    };
+        listItem.appendChild(listText);
+        listText.textContent = myItem;
+        listItem.appendChild(listBtn);
+        listBtn.textContent = "❌";
+        list.appendChild(listItem);
 
-    input.focus();
+        listBtn.onclick = function(e) {
+            list.removeChild(listItem);
+        };
+
+        input.focus();
+
+    }
+
 };
