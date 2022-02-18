@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+    padding: 50px 0;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

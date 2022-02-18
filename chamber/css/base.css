@@ -88,6 +88,7 @@ nav.open ul {
     width: 100%;
     height: inherit;
     text-align: center;
+    padding: 0 5px;
 }
 
 header ul a {
@@ -106,8 +107,8 @@ header ul a:hover {
 }
 
 .active {
-    border-bottom: 4px solid #012A4A;
-    color: #012A4A;
+    border-bottom: 4px solid #2C7DA0;
+    color: #2C7DA0;
     padding: 10px 0px;
     text-align: center;
 }

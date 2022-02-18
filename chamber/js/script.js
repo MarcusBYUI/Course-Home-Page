@@ -46,6 +46,7 @@ const today = new Date();
 const dayName = daynames[today.getDay()];
 const monthName = months[today.getMonth()];
 const dateNum = today.getDate();
+const dayNum = today.getDay();
 const year = today.getFullYear();
 
 
@@ -56,7 +57,7 @@ fLarge.innerHTML = `<strong>&copy; ${year} Uyo Chammber | Ojo-Osasere Marcus | W
 document.querySelector(".date").innerHTML = `<p><strong>${dayName}, ${dateNum} ${monthName} ${year}</strong></p>`;
 
 window.addEventListener("load", () => {
-    if (dateNum == 1 || dateNum == 2) {
+    if (dayNum == 1 || dayNum == 2) {
         document.querySelector(".banner").style.display = "block";
     } else {
         document.querySelector(".banner").style.display = "none";
@@ -69,7 +70,7 @@ window.addEventListener("load", () => {
 function active() {
     switch (document.title) {
         case "Uyo Chamber of Commerce":
-            console.log(document.querySelector("#menu").firstChild);
+
             document.querySelector("#home").classList.add("active");
 
     }
