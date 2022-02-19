@@ -72,6 +72,10 @@ function active() {
         case "Uyo Chamber of Commerce":
 
             document.querySelector("#home").classList.add("active");
+            break;
+
+        case "Uyo Chamber of Commerce - Discover":
+            document.querySelector("#discover").classList.add("active");
 
     }
 

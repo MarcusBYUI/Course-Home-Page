@@ -31,7 +31,7 @@ header {
     margin: 0;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: inherit;
     z-index: 2;
 }
 
@@ -85,7 +85,7 @@ nav.open ul {
     margin: 0;
     top: 148px;
     left: 0;
-    width: 100%;
+    width: 98%;
     height: inherit;
     text-align: center;
     padding: 0 5px;
@@ -153,7 +153,7 @@ header ul a:active {
 
 /* Main Section */
 
-main {
+#main {
     margin: 10px auto;
     display: grid;
     grid-template-columns: 100%;
@@ -165,7 +165,7 @@ main {
     z-index: 1;
 }
 
-main>div {
+#main>div {
     background-color: #2C7DA0;
     color: white;
     font-size: 1.2rem;
@@ -234,7 +234,7 @@ main>div {
     background-color: transparent;
 }
 
-main .hero .hero-image img {
+#main .hero .hero-image img {
     width: 100%;
 }
 
@@ -271,7 +271,7 @@ footer {
     grid-template-columns: 1fr;
     justify-items: center;
     background-color: white;
-    width: 100%;
+    width: inherit;
 }
 
 .address {
@@ -315,4 +315,78 @@ footer {
 .fl,
 .fm {
     display: none;
+}
+
+
+/* 
+
+
+Discover Page Main 
+
+
+*/
+
+.top {
+    padding: 30px 30px 10px 30px;
+}
+
+.top h2,
+.top p {
+    margin-top: 0;
+    color: #012A4A;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.top h5 {
+    color: #012A4A;
+    text-align: center;
+}
+
+#gallery {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 15px 30px 15px;
+    grid-gap: 1px;
+}
+
+#gallery img {
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    transition: transform .2s;
+}
+
+#gallery img[data-src] {
+    width: 100%;
+    filter: blur(0.2em);
+}
+
+#gallery div.blue {
+    background-color: #012A4A;
+    padding: 35px 30px 40px 30px;
+}
+
+#gallery div.light-blue {
+    background-color: #2C7DA0;
+    padding: 35px 30px 40px 30px;
+}
+
+#gallery p {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.blue h4,
+.light-blue h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#gallery img:hover {
+    transform: scale(1);
 }

@@ -31,7 +31,7 @@
     }
     /* 
     MAin */
-    main {
+    #main {
         grid-template-columns: repeat(3, 1fr);
     }
     .hero {
@@ -68,5 +68,38 @@
     .weather {
         grid-column: 3/4;
         grid-row: 5;
+    }
+    /* 
+    
+    Discover Page 
+    
+    
+    */
+    #gallery {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    .top {
+        padding: 30px 50px 10px 50px;
+    }
+    .top h2,
+    .top p {
+        font-size: 1.7rem;
+    }
+    #gallery p {
+        font-size: 1.7rem;
+    }
+    #gallery div.blue {
+        padding: 35px 50px 40px 50px;
+    }
+    #gallery div.light-blue {
+        padding: 35px 50px 40px 50px;
+    }
+    #gallery img:hover {
+        transform: scale(1.05);
+    }
+    .blue h4,
+    .light-blue h4 {
+        font-size: 1.4rem;
     }
 }
