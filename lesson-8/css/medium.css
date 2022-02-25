@@ -1,0 +1,19 @@
+@media only screen and (min-width: 600px) {
+    td {
+        font-size: 1.2rem;
+    }
+    td {
+        padding: 5px 10px;
+    }
+    thead th {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        font-weight: 750;
+    }
+    tbody tr th {
+        padding: 5px 10px;
+    }
+    tfoot td {
+        padding: 5px 100px;
+    }
+}

@@ -1,0 +1,61 @@
+td,
+th {
+    font-family: "ubuntu", sans-serif;
+}
+
+td {
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+
+td {
+    font-size: 0.8rem;
+    font-style: bold;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(163, 163, 163);
+    padding: 5px 10px;
+}
+
+#content {
+    max-width: 90%;
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+}
+
+table {
+    margin: 0, auto;
+    box-shadow: 3px 5px 5px 1px rgb(112, 112, 91);
+    background-color: beige;
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-weight: 750;
+}
+
+tbody tr th {
+    padding: 5px 10px;
+    background-color: cadetblue;
+    color: white;
+}
+
+tr th {
+    border: 1px solid rgb(163, 163, 163);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(0, 207, 162);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(70, 196, 91);
+}
+
+td.special {
+    background-color: cadetblue;
+}
