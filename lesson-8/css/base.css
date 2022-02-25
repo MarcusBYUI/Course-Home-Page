@@ -13,7 +13,7 @@ td {
     color: black;
     text-align: center;
     border: 1px solid rgb(163, 163, 163);
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 
 #content {
@@ -33,12 +33,12 @@ table {
 thead th {
     text-align: center;
     color: black;
-    padding: 5px;
+    padding: 15px 0;
     font-weight: 750;
 }
 
 tbody tr th {
-    padding: 5px 10px;
+    padding: 15px 10px;
     background-color: rgb(0, 63, 145);
     color: white;
 }
@@ -58,4 +58,9 @@ tbody tr:nth-child(odd) {
 td.special {
     background-color: rgb(0, 63, 145);
     color: white;
+}
+
+tfoot td {
+    font-size: 0.7rem;
+    padding: 8px 30px;
 }
