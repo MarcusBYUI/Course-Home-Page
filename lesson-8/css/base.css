@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 td,
 th {
     font-family: "ubuntu", sans-serif;
@@ -9,8 +10,6 @@ td {
 }
 
 td {
-    font-size: 0.8rem;
-    font-style: bold;
     color: black;
     text-align: center;
     border: 1px solid rgb(163, 163, 163);
@@ -25,7 +24,7 @@ td {
 }
 
 table {
-    margin: 0, auto;
+    margin: 0 auto;
     box-shadow: 3px 5px 5px 1px rgb(112, 112, 91);
     background-color: beige;
     border-collapse: collapse;
