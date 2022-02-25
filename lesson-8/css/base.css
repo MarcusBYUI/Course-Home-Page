@@ -39,7 +39,7 @@ thead th {
 
 tbody tr th {
     padding: 5px 10px;
-    background-color: cadetblue;
+    background-color: rgb(0, 63, 145);
     color: white;
 }
 
@@ -56,5 +56,6 @@ tbody tr:nth-child(odd) {
 }
 
 td.special {
-    background-color: cadetblue;
+    background-color: rgb(0, 63, 145);
+    color: white;
 }
