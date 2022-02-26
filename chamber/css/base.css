@@ -335,7 +335,7 @@ Discover Page Main
     margin-top: 0;
     color: #012A4A;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .top h5 {
@@ -389,4 +389,115 @@ Discover Page Main
 
 #gallery img:hover {
     transform: scale(1);
+}
+
+
+/* ----------------Join Uyo Special Club -------------*/
+
+#form {
+    margin: 0 auto 40px auto;
+    max-width: 700px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin-left: 1px;
+}
+
+#form h3 {
+    font-size: 21px;
+}
+
+.blockview {
+    display: block;
+    padding-top: 25px;
+    color: #012A4A;
+    font-weight: 700;
+}
+
+#membership {
+    font-weight: 500;
+}
+
+.blockview input,
+textarea {
+    display: block;
+    margin-top: 7px;
+    color: #012A4A;
+    width: 92%;
+    padding: 10px 5px;
+}
+
+.blockview input:focus {
+    background-color: rgb(169, 214, 229);
+    border: 0px;
+}
+
+.blockview input:required {
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+}
+
+.blockview input:required:valid {
+    border-right: 5px solid rgb(60, 190, 0);
+    border-left: 5px solid rgb(60, 190, 0);
+}
+
+.blockview textarea {
+    display: block;
+    margin-top: 5px;
+}
+
+#membership {
+    margin-top: 15px;
+    display: block;
+}
+
+.mtitle {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sbs {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+input[name="membership"] {
+    margin-right: 10px;
+    accent-color: #012A4A;
+}
+
+#submitBtn {
+    margin-top: 10px;
+    padding: 10px 0;
+    width: 96%;
+    border: none;
+    font-size: 17px;
+    background-color: #012A4A;
+    border-radius: 4px;
+    color: white;
+}
+
+.benefit h5 {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.benefit {
+    margin-top: 10px;
+    background-color: #A9D6E5;
+    padding: 5px;
+    display: none;
+    border-radius: 5px;
+    width: 93%;
+}
+
+.sbs:first-child {
+    margin-top: 15px;
+}
+
+td {
+    font-size: 18px;
 }

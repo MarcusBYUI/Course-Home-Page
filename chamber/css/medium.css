@@ -102,4 +102,39 @@
     .light-blue h4 {
         font-size: 1.4rem;
     }
+    /* ----------------Join Uyo Special Club -------------*/
+    #form {
+        margin: 0 auto 40px auto;
+        max-width: 700px;
+    }
+    #form h3 {
+        font-size: 25px;
+    }
+    .blockview input,
+    textarea {
+        width: 300px;
+        padding: 5px 5px;
+    }
+    #membership {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 30px;
+    }
+    .mtitle {
+        font-weight: 600;
+        font-size: 17px;
+        grid-column: 1/span 2;
+    }
+    .sbs {
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    #submitBtn {
+        padding: 5px 120px;
+        width: inherit;
+    }
+    td {
+        font-size: 15px;
+    }
 }
