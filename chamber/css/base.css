@@ -501,3 +501,12 @@ input[name="membership"] {
 td {
     font-size: 18px;
 }
+
+.thanks {
+    margin: 40px auto 60px auto;
+    max-width: 700px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}

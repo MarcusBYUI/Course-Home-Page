@@ -61,3 +61,17 @@ document.querySelector("#free").addEventListener("click", free);
 document.querySelector("#bronze").addEventListener("click", bronze);
 document.querySelector("#silver").addEventListener("click", silver);
 document.querySelector("#gold").addEventListener("click", gold);
+
+// submission time
+
+const dt = new Date();
+let day = dt.getDate();
+let month = dt.getMonth() + 1;
+let years = dt.getFullYear();
+let hour = dt.getHours();
+let minutes = dt.getMinutes();
+let sec = dt.getSeconds();
+day = (day <= 9) ? '0' + day : day;
+month = (month <= 9) ? '0' + month : month;
+
+document.querySelector("#time").value = `${day}.${month}.${years}..${hour}.${minutes}.${sec}`;

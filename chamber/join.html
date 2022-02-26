@@ -59,7 +59,7 @@
         <section id="form">
             <h3>Uyo Special Club Application Form</h3>
 
-            <form action="/thankyou.html">
+            <form action="thankyou.html" method="get">
 
                 <label class="blockview">First Name <input  type="text"  placeholder="First name" name="fname" required></label>
                 <label class="blockview">Last Name <input type="text" placeholder="Last name" name="lname" required></label>
@@ -113,7 +113,7 @@
                 </div>
 
                 <label class="blockview">Business Description <textarea name="description" rows="4" cols="50"></textarea></label>
-                <input type="hidden" name="time">
+                <input type="hidden" id="time" name="time">
 
                 <input id="submitBtn" type="submit" value="Join Club">
 
