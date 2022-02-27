@@ -65,11 +65,11 @@
                 <label class="blockview">Last Name <input type="text" placeholder="Last name" name="lname" required></label>
 
 
-                <label class="blockview">Business Position <input type="text" name="position" pattern="[A-Z][a-z][-][ ]{7,8}"></label>
+                <label class="blockview">Business Position <input type="text" name="position" required pattern="^[A-Za-z -]{7,}$"></label>
 
                 <label class="blockview">Email <input type="email" name="email" placeholder="EG. someone@example.com" required></label>
                 <label class="blockview">Phone Number <input type="tel" name="tel" required></label>
-                <label class="blockview">Business Name <input type="text" name="businessname" required></label>
+                <label class="blockview">Business Name <input type="text" name="businessname"></label>
 
                 <div id="membership">
                     <div class="mtitle">Membership Level</div>
