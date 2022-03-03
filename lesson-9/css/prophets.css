@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto:wght@600&display=swap');
+
+h1 {
+  text-align: center;
+  color: rgb(79, 132, 167);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2px;
+}
+
+img {
+  margin-top: 15px;
+  width: 100%;
+  box-shadow: 1px 1px 15px 4px rgb(0, 0, 0);
+}
+
+.card {
+  padding: 10px 65px;
+  background-color: rgb(79, 132, 167);
+  border-radius: 3px;
+  border: 2px solid rgb(156, 156, 156);
+}
+p {
+  font-size: 1.1rem;
+  font-family: 'Hubballi', cursive;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 247, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-size: 1.2rem;
+    font-family: 'Hubballi', cursive;
+    font-weight: 700;
+    text-align: center;
+  }
+
+
+  @media screen and (min-width:1020px) {
+
+    p {
+        font-size: 1.2rem;}
+
+    h2 {
+        font-size: 1.6rem;}
+
+    .card {
+        padding: 10px 45px;}
+            
+      
+}
