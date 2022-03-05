@@ -1,5 +1,5 @@
 const cardList = document.querySelector(".card-list");
-const directoryURL = "../data/data.json";
+const directoryURL = "./data/data.json";
 const medium = window.matchMedia("(min-width:545px) and (max-width: 1079px)");
 
 function make_cards(business) {
