@@ -11,14 +11,17 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+tr .name {
     font-family: 'Bree Serif', serif;
     color: #012A4A;
 }
 
 p,
 a,
-.text {
+.text,
+td,
+address {
     font-family: 'Dongle', sans-serif;
     font-size: 24px;
 }
@@ -509,4 +512,124 @@ td {
     padding: 10px 30px;
     border-radius: 5px;
     padding-bottom: 30px;
+}
+
+/* -------------------------------------Uyo Business Directory Page-----------------------------------------------*/
+
+.cards {
+    margin: 10px 0 40px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 5px;
+    padding: 25px 5px;
+    
+    text-align: center; 
+}
+.business{
+    text-align: center;
+    margin-top: 40px;
+}
+.card{
+    margin: 15px;
+
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 3px 8px 5px #A9D6E5;
+    border-radius: 2px;
+    padding: 20px 0;
+}
+
+.card address{
+    color: #012A4A;
+    font-size: 1.6rem;
+    padding: 0 30px;
+    margin-bottom: -15px;
+}
+
+
+.card p{
+    color: #012A4A;
+    font-size: 1.4rem;
+    margin-bottom: 1px;
+    
+}
+.card a{
+    font-size: 1.4rem;
+    
+}
+
+.card img{
+    width: 30%;
+    padding-bottom: 15px;
+    border-radius: 2px;
+    
+    
+}
+
+.list   {
+    margin: 10px 0 40px 0;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px;
+    
+}
+
+
+.list tr:nth-child(odd) {
+    background-color: #A9D6E5;
+}
+
+.list td {
+    color: #012A4A;
+    padding: 15px 10px;
+
+}
+.list tr .name{
+    
+    margin-bottom: -20px;
+
+}
+.list tr .list-address{
+    font-size: 1.6rem;
+    margin-bottom: -25px;
+
+}
+
+.list tr .list-number{
+    font-size: 1.6rem;
+    margin-bottom: -36px;
+
+    
+}
+
+.list tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 15px 0 15px 0;
+    border-radius: 3px;
+}
+
+#address{
+    padding: 0 5px;
+    
+}
+.switch{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.switch button{
+    border: 2px solid #012A4A;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #012A4A;
+    font-size: 1.1rem;
+}
+
+.switch button:hover{
+    background-color: #A9D6E5;
 }

@@ -80,6 +80,10 @@ function active() {
 
         case "Uyo Chamber of Commerce - Join":
             document.querySelector("#join").classList.add("active");
+            break;
+
+        case "Uyo Chamber of Commerce - Directory":
+            document.querySelector("#directory").classList.add("active");
 
 
 

@@ -1,140 +1,164 @@
 @media only screen and (min-width: 545px) {
-    header {
-        grid-template-columns: 55% auto 120px;
-    }
-    nav.open ul {
-        top: 125px;
-    }
-    footer {
-        grid-template-columns: 1fr 1fr;
-    }
-    .address {
-        display: grid;
-        grid-template-columns: 130px auto;
-        padding-top: 10px;
-    }
-    .address img {
-        padding-top: 25px;
-        width: 95%;
-    }
-    .contact {
-        grid-row: 1;
-        grid-column: 2;
-        margin: 0;
-    }
-    .fb,
-    .fl {
-        display: none;
-    }
-    .fm {
-        display: block;
-    }
-    /* 
+  header {
+    grid-template-columns: 55% auto 120px;
+  }
+  nav.open ul {
+    top: 125px;
+  }
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .address {
+    display: grid;
+    grid-template-columns: 130px auto;
+    padding-top: 10px;
+  }
+  .address img {
+    padding-top: 25px;
+    width: 95%;
+  }
+  .contact {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 0;
+  }
+  .fb,
+  .fl {
+    display: none;
+  }
+  .fm {
+    display: block;
+  }
+  /* 
     MAin */
-    #main {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .hero {
-        grid-column: 1/4;
-        grid-row: 1;
-    }
-    .new {
-        grid-column: 1/4;
-        grid-row: 2;
-    }
-    .spot {
-        grid-column: 1/4;
-        grid-row: 3;
-        grid-template-columns: 1fr 1fr;
-    }
-    .spot div:nth-child(3) {
-        display: none;
-    }
-    .spot div:nth-child(1) {
-        margin-right: 3px;
-    }
-    .spot div:nth-child(2) {
-        margin-left: 3px;
-    }
-    .join {
-        display: block;
-        grid-column: 1/4;
-        grid-row: 4;
-    }
-    .event {
-        grid-column: 1/3;
-        grid-row: 5;
-    }
-    .weather {
-        grid-column: 3/4;
-        grid-row: 5;
-    }
-    /* 
+  #main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .new {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+  .spot {
+    grid-column: 1/4;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr;
+  }
+  .spot div:nth-child(3) {
+    display: none;
+  }
+  .spot div:nth-child(1) {
+    margin-right: 3px;
+  }
+  .spot div:nth-child(2) {
+    margin-left: 3px;
+  }
+  .join {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+  .event {
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+  .weather {
+    grid-column: 3/4;
+    grid-row: 5;
+  }
+  /* 
     
     Discover Page 
     
     
     */
-    #gallery {
-        margin: 0 auto;
-        max-width: 800px;
-    }
-    .top {
-        padding: 30px 50px 10px 50px;
-    }
-    .top h2,
-    .top p {
-        font-size: 1.7rem;
-    }
-    #gallery p {
-        font-size: 1.7rem;
-    }
-    #gallery div.blue {
-        padding: 35px 50px 40px 50px;
-    }
-    #gallery div.light-blue {
-        padding: 35px 50px 40px 50px;
-    }
-    #gallery img:hover {
-        transform: scale(1.05);
-    }
-    .blue h4,
-    .light-blue h4 {
-        font-size: 1.4rem;
-    }
-    /* ----------------Join Uyo Special Club -------------*/
-    #form {
-        margin: 0 auto 40px auto;
-        max-width: 700px;
-    }
-    #form h3 {
-        font-size: 25px;
-    }
-    .blockview input,
-    textarea {
-        width: 300px;
-        padding: 5px 5px;
-    }
-    #membership {
-        margin-top: 15px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-right: 30px;
-    }
-    .mtitle {
-        font-weight: 600;
-        font-size: 17px;
-        grid-column: 1/span 2;
-    }
-    .sbs {
-        padding: 5px 0;
-        font-size: 16px;
-    }
-    #submitBtn {
-        padding: 5px 120px;
-        width: inherit;
-    }
-    td {
-        font-size: 15px;
-    }
+  #gallery {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .top {
+    padding: 30px 50px 10px 50px;
+  }
+  .top h2,
+  .top p {
+    font-size: 1.7rem;
+  }
+  #gallery p {
+    font-size: 1.7rem;
+  }
+  #gallery div.blue {
+    padding: 35px 50px 40px 50px;
+  }
+  #gallery div.light-blue {
+    padding: 35px 50px 40px 50px;
+  }
+  #gallery img:hover {
+    transform: scale(1.05);
+  }
+  .blue h4,
+  .light-blue h4 {
+    font-size: 1.4rem;
+  }
+  /* ----------------Join Uyo Special Club -------------*/
+  #form {
+    margin: 0 auto 40px auto;
+    max-width: 700px;
+  }
+  #form h3 {
+    font-size: 25px;
+  }
+  .blockview input,
+  textarea {
+    width: 300px;
+    padding: 5px 5px;
+  }
+  #membership {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 30px;
+  }
+  .mtitle {
+    font-weight: 600;
+    font-size: 17px;
+    grid-column: 1 / span 2;
+  }
+  .sbs {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  #submitBtn {
+    padding: 5px 120px;
+    width: inherit;
+  }
+  td {
+    font-size: 15px;
+  }
+
+  /* -------------------------------------Uyo Business Directory Page-----------------------------------------------*/
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 25px 15px;
+  }
+  .card address {
+    padding: 0 45px;
+    margin-bottom: -15px;
+  }
+
+  .card p {
+    font-size: 1.3rem;
+    margin-bottom: -4px;
+  }
+
+  .list tr {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+    justify-items: center;
+  }
 }
