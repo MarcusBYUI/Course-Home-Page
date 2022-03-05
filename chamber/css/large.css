@@ -186,8 +186,8 @@
 
   .cards {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    padding: 25px 25px;
+    grid-gap: 5px;
+    padding: 50px 50px;
   }
 
   .card address {
