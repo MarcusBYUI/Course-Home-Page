@@ -1,84 +1,101 @@
 {
   "businesses": [
+
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Eni Stores",
+      "imageurl": "images/logos/eni.jpg",
+      "street": "4 Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0813 588 0220",
+      "website": "https://enistores.com"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Crunchies Fast Food",
+      "imageurl": "images/logos/crunch.jpg",
+      "street": "142 Aka Road",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0907 703 8947",
+      "website": "https://crunchiesfriedchickenltd.com/"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Whitebridge Global Consulting Ltd",
+      "imageurl": "images/logos/watbridge.jpg",
+      "street": "114 Udo Udoma Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0803 749 2675",
+      "website": "whitebridgeconsulting@gmail.com"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
-      "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "name": "IBBIL Computers",
+      "imageurl": "images/logos/ibbil.jpg",
+      "street": "80 Aka Road",
+      "city": " Uyo, Akwa Ibom Nigeria",
+      "number": "0708 543 4434",
+      "website": "http://ibbilcomputers.com"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Kilimanjaro Restaurants Uyo",
+      "imageurl": "images/logos/kili.jpg",
+      "street": "165 Oron Road",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0807 509 1477",
+      "website": "https//kilimanjaro-restaurants.com/"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Starthub Technology Ltd",
+      "imageurl": "images/logos/starthub.jpg",
+      "street": "Suite G11, Ibom e-Library",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0909 000 9216",
+      "website": "https://starthub.com.ng"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Radiant Oak Intelligence",
+      "imageurl": "images/logos/oak.jpg",
+      "street": "135A Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0810 109 7101",
+      "website": "http://www.radiantoakng.com"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "PHED Uyo",
+      "imageurl": "images/logos/phd.jpg",
+      "street": "No.3 Ekpeyong Street,off Barracks Road",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0805 029 3215",
+      "website": "http://www.phed.com.ng"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "ICMA Services",
+      "imageurl": "images/logos/icma.jpg",
+      "street": "PLot 21, Unit G, Ewet Housing Estate",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0901 413 6067",
+      "website": "http://www.icmaservices.com"
     },
     {
-      "name": "Champion Breweries Plc",
-      "imageurl": "images/logos/champion.jpg",
-      "street": "Industrial Layout, Aka Offot",
+      "name": "Accent Digital Resources",
+      "imageurl": "images/logos/accent.jpg",
+      "street": "28B Itu Road",
       "city": "Uyo, Akwa Ibom Nigeria",
-      "number": "0803 422 3272",
-      "website": "http://www.championbreweries.com/"
+      "number": "0808 678 3266",
+      "website": "http://www.accentdigitalresources.com"
+    },
+    {
+      "name": "Ibomstore",
+      "imageurl": "images/logos/ibomstore.jpg",
+      "street": "No 11 Iboko Street",
+      "city": "Uyo, Akwa Ibom Nigeria",
+      "number": "07011 110 034",
+      "website": "https://www.ibomstore.com"
+    },
+    {
+      "name": "AA Car Rescue",
+      "imageurl": "images/logos/aarescue.jpg",
+      "street": "132 Nsikak Eduok Avenue",
+      "city": "Uyo, Akwa Ibom Nigeria",
+      "number": "0802 730 6799",
+      "website": "http://www.aarescuenigeria.com"
     }
     
   ]

@@ -1,6 +1,9 @@
 const cardList = document.querySelector(".card-list");
-const directoryURL = "./data/data.json";
+const directoryURL = "../data/data.json";
 const medium = window.matchMedia("(min-width:545px) and (max-width: 1079px)");
+
+let width = window.innerWidth;
+let height = window.innerHeight;
 
 function make_cards(business) {
     //Create cards from each item of the fetched list
@@ -24,15 +27,34 @@ function make_list(business) {
     </tr>`;
 }
 
-function myFunction(medium, list) {
-    //checks the viewport and set the defailt view either grid or list
+class setDefView {
+    // initialzes with a def view then the method setView checks to set a default view on resize but prevent the chrome mobile
+    // scroll resize from triggering the resize event
 
-  if (medium.matches) {
-    // If media query matches
-    listView(list);
-  } else {
-    gridView(list);
-  }
+    constructor(medium, list){
+        this.list = list;
+
+        if (medium.matches) {
+            // If media query matches
+            listView(this.list);
+        } else {
+            gridView(this.list);
+        }
+
+    }
+
+    setView(medium) {
+        //checks the viewport and set the defailt view either grid or list
+        if(window.innerWidth != width || window.innerHeight != height){
+            if (medium.matches) {
+                // If media query matches
+                listView(this.list);
+            } else {
+                gridView(this.list);
+            }
+        }
+
+    }
 }
 
 // Fetch the JSON data for the directory
@@ -45,8 +67,9 @@ fetch(directoryURL)
     let businesses = data["businesses"];
 
     //A calls the funtion that sets the default view for medium screen as list ans leaves the rest as cards
-    myFunction(medium, businesses);
-    window.addEventListener("resize", () => myFunction(medium, businesses));
+    const defView = new setDefView(medium, businesses);
+    defView.setView(medium);
+    window.addEventListener("resize", () => defView.setView(medium));
 
     //event listener for button click
     document
