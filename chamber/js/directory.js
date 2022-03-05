@@ -3,7 +3,6 @@ const directoryURL = "./data/data.json";
 const medium = window.matchMedia("(min-width:545px) and (max-width: 1079px)");
 
 let width = window.innerWidth;
-let height = window.innerHeight;
 
 function make_cards(business) {
     //Create cards from each item of the fetched list
@@ -45,7 +44,7 @@ class setDefView {
 
     setView(medium) {
         //checks the viewport and set the defailt view either grid or list
-        if(window.innerWidth != width || window.innerHeight != height){
+        if(window.innerWidth != width){
             if (medium.matches) {
                 // If media query matches
                 listView(this.list);
