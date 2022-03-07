@@ -7,7 +7,7 @@ let width = window.innerWidth;
 function make_cards(business) {
     //Create cards from each item of the fetched list
   return `<div class="card">
-            <img src = ${business.imageurl} alt = ${business.name}>
+            <img src = ${business.imageurl} alt = ${business.name} loading="lazy">
             <address>${business.street}, ${business.city}</address>
             <p>${business.number}</p>
             <a href="${business.website}" target="_blank">${business.website}</a>
