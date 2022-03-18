@@ -1,8 +1,9 @@
 {
   "businesses": [
-
     {
       "name": "Eni Stores",
+      "email": "info@enistores.com",
+      "decscription": "Home for easy meal and drinks pickup",
       "imageurl": "images/logos/eni.jpg",
       "street": "4 Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -11,22 +12,28 @@
     },
     {
       "name": "Crunchies Fast Food",
+      "email": "info@crunchiesltd.com",
+      "decscription": "Home of mouth watery delicacies and dishes",
       "imageurl": "images/logos/crunch.jpg",
       "street": "142 Aka Road",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0907 703 8947",
-      "website": "https://crunchiesfriedchickenltd.com/"
+      "website": "https://crunchiesltd.com/"
     },
     {
-      "name": "Whitebridge Global Consulting Ltd",
+      "name": "Whitebridge Global Ltd",
+      "email": "info@whitebridge.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/watbridge.jpg",
       "street": "114 Udo Udoma Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0803 749 2675",
-      "website": "whitebridgeconsulting@gmail.com"
+      "website": "whitebridgeconsulting.com"
     },
     {
       "name": "IBBIL Computers",
+      "email": "info@ibbilcomputers.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/ibbil.jpg",
       "street": "80 Aka Road",
       "city": " Uyo, Akwa Ibom Nigeria",
@@ -34,7 +41,9 @@
       "website": "http://ibbilcomputers.com"
     },
     {
-      "name": "Kilimanjaro Restaurants Uyo",
+      "name": "Kilimanjaro Restaurants",
+      "email": "info@kilimanjaro.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/kili.jpg",
       "street": "165 Oron Road",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -43,6 +52,8 @@
     },
     {
       "name": "Starthub Technology Ltd",
+      "email": "info@kilimanjaro-restaurants.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/starthub.jpg",
       "street": "Suite G11, Ibom e-Library",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -51,6 +62,8 @@
     },
     {
       "name": "Radiant Oak Intelligence",
+      "email": "info@radiantoakng.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/oak.jpg",
       "street": "135A Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -59,6 +72,8 @@
     },
     {
       "name": "PHED Uyo",
+      "email": "info@phed.com.ng",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/phd.jpg",
       "street": "No.3 Ekpeyong Street,off Barracks Road",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -67,6 +82,8 @@
     },
     {
       "name": "ICMA Services",
+      "email": "info@icmaservices.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/icma.jpg",
       "street": "PLot 21, Unit G, Ewet Housing Estate",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -75,6 +92,8 @@
     },
     {
       "name": "Accent Digital Resources",
+      "email": "info@icmaservices.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/accent.jpg",
       "street": "28B Itu Road",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -83,6 +102,8 @@
     },
     {
       "name": "Ibomstore",
+      "email": "info@ibomstore.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/ibomstore.jpg",
       "street": "No 11 Iboko Street",
       "city": "Uyo, Akwa Ibom Nigeria",
@@ -91,12 +112,13 @@
     },
     {
       "name": "AA Car Rescue",
+      "email": "info@aarescuenigeria.com",
+      "decscription": "All legal consultations with top professionals",
       "imageurl": "images/logos/aarescue.jpg",
       "street": "132 Nsikak Eduok Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0802 730 6799",
       "website": "http://www.aarescuenigeria.com"
     }
-    
   ]
 }

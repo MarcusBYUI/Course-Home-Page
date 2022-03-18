@@ -256,9 +256,49 @@ header ul a:active {
   display: none;
 }
 
-.spot > div {
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  padding: 15px;
+.spotlight1,
+.spotlight2 {
+  text-align: center;
+  box-shadow: -2px -4px 23px 1px #012a4a;
+}
+.underline {
+  display: flex;
+  border-bottom: 3px solid #012a4a;
+  margin: 0 25px;
+}
+
+.spotlight1 img,
+.spotlight2 img,
+.spotlight3 img {
+  width: 80%;
+  border-radius: 5px;
+}
+.spotlight1 h4,
+.spotlight2 h4,
+.spotlight3 h4 {
+  color: rgb(240, 240, 240);
+  margin: 17px 0;
+}
+.spotlight1 h5,
+.spotlight2 h5,
+.spotlight3 h5 {
+  color: rgb(240, 240, 240);
+  font-size: 14px;
+  margin: 15px 45px;
+}
+
+.spot-email {
+  color: #012a4a;
+  font-size: 28px;
+  margin: 5px 45px 0 45px;
+}
+.spot-number {
+  color: #012a4a;
+  font-size: 24px;
+  margin: 0 45px 18px 45px;
+}
+.spot-number a {
+  text-decoration: none;
 }
 
 /* 

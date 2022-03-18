@@ -93,7 +93,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
-    padding: 30px;
+    padding: 10px;
+    width: 265px;
   }
   .spot div:nth-child(3) {
     display: block;
@@ -106,6 +107,39 @@
   }
   .join {
     display: block;
+  }
+  .spotlight1,
+  .spotlight2,
+  .spotlight3 {
+    text-align: center;
+    box-shadow: -2px -4px 23px 1px #012a4a;
+    width: inherit;
+  }
+  .underline {
+    display: flex;
+    border-bottom: 3px solid #012a4a;
+    margin: 0 25px;
+  }
+
+  .spotlight1 img {
+    width: 80%;
+    border-radius: 5px;
+  }
+  .spotlight1 h4 {
+    color: rgb(240, 240, 240);
+    margin: 17px 0;
+  }
+  .spotlight1 h5 {
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+    margin: 15px 45px;
+  }
+
+  .spot-email {
+    font-size: 25px;
+  }
+  .spot-number {
+    font-size: 22px;
   }
   /* 
     
