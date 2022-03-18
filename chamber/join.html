@@ -1,165 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--edit this later-->
-    <meta name="description" content="Uyo Chamber of Commerce Join Page">
+    <meta name="description" content="Uyo Chamber of Commerce Join Page" />
     <title>Uyo Chamber of Commerce - Join</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="icon" href="images/favicon.ico">
-</head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
 
-<body id="content">
-
+  <body id="content">
     <header>
-        <div class="logo-container">
-            <a href="index.html"><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"></a>
-            <h3>Chamber of Commerce</h3>
-        </div>
-        <div class="socials">
-            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
-            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image"></a>
-        </div>
-        <nav class="primary">
-            <button id="ham"><span>&#9776;</span><span>X</span></button>
-            <ul id="menu">
-                <li><strong><a id="home" href="index.html">Home</a></strong></li>
-                <li><strong><a id="discover" href="discover.html">Discover</a></strong></li>
-                <li><strong><a id="directory" href="directory.html">Directory</a></strong></li>
-                <li><strong><a id="join" href="#">Join</a></strong></li>
-                <li><strong><a id="contact" href="#">Contact</a></strong></li>
+      <div class="logo-container">
+        <a href="index.html"
+          ><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"
+        /></a>
+        <h3>Chamber of Commerce</h3>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com"
+          ><img src="images/facebook.png" alt="Facebook image"
+        /></a>
+        <a href="https://www.linkedin.com"
+          ><img src="images/linkedin.png" alt="LinkedIn image"
+        /></a>
+      </div>
+      <nav class="primary">
+        <button id="ham"><span>&#9776;</span><span>X</span></button>
+        <ul id="menu">
+          <li>
+            <strong><a id="home" href="index.html">Home</a></strong>
+          </li>
+          <li>
+            <strong><a id="discover" href="discover.html">Discover</a></strong>
+          </li>
+          <li>
+            <strong
+              ><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="#">Join</a></strong>
+          </li>
+          <li>
+            <strong><a id="contact" href="contact.html">Contact</a></strong>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="date"></div>
 
-            </ul>
-        </nav>
-
-        <div class="date">
-
-        </div>
-
-        <div class="banner">
-            <h4>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h4>
-        </div>
+      <div class="banner">
+        <h4>
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m.
+        </h4>
+      </div>
     </header>
 
     <main id="discovermain">
-        <div class="top">
-            <h2>Join Uyo Special Club</h2>
-            <p>Living in Uyo is much more fun and interesting when you join our club. Signup today for Uyo Special Club and gain access to amazing city services available for premium member</p>
-        </div>
+      <div class="top">
+        <h2>Join Uyo Special Club</h2>
+        <p>
+          Living in Uyo is much more fun and interesting when you join our club.
+          Signup today for Uyo Special Club and gain access to amazing city
+          services available for premium member
+        </p>
+      </div>
 
+      <section id="form">
+        <h3>Uyo Special Club Application Form</h3>
 
+        <form action="thankyou.html" method="get">
+          <label class="blockview"
+            >First Name
+            <input type="text" placeholder="First name" name="fname" required
+          /></label>
+          <label class="blockview"
+            >Last Name
+            <input type="text" placeholder="Last name" name="lname" required
+          /></label>
 
-        <section id="form">
-            <h3>Uyo Special Club Application Form</h3>
+          <label class="blockview"
+            >Business Position
+            <input type="text" name="position" pattern="^[A-Za-z -]{7,}$"
+          /></label>
 
-            <form action="thankyou.html" method="get">
+          <label class="blockview"
+            >Email
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@example.com"
+              required
+          /></label>
+          <label class="blockview"
+            >Phone Number <input type="tel" name="tel" required
+          /></label>
+          <label class="blockview"
+            >Business Name <input type="text" name="businessname" required
+          /></label>
 
-                <label class="blockview">First Name <input  type="text"  placeholder="First name" name="fname" required></label>
-                <label class="blockview">Last Name <input type="text" placeholder="Last name" name="lname" required></label>
+          <div id="membership">
+            <div class="mtitle">Membership Level</div>
 
+            <div>
+              <label class="sbs"
+                ><input id="free" type="radio" name="membership" />NP
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="bronze" type="radio" name="membership" />Bronze
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="silver" type="radio" name="membership" />Silver
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="gold" type="radio" name="membership" />Gold
+                Membership</label
+              >
+            </div>
 
-                <label class="blockview">Business Position <input type="text" name="position" pattern="^[A-Za-z -]{7,}$"></label>
+            <div class="benefit">
+              <h5>Price: <span id="price"></span></h5>
+              <table>
+                <tr>
+                  <th>Benefits:</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td id="one">Website Ads</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td id="two">Free Meal</td>
+                </tr>
 
-                <label class="blockview">Email <input type="email" name="email" placeholder="someone@example.com" required></label>
-                <label class="blockview">Phone Number <input type="tel" name="tel" required></label>
-                <label class="blockview">Business Name <input type="text" name="businessname" required></label>
+                <tr>
+                  <td></td>
+                  <td id="three">Website Ads</td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
-                <div id="membership">
-                    <div class="mtitle">Membership Level</div>
+          <label class="blockview"
+            >Business Description
+            <textarea name="description" rows="4" cols="50"></textarea>
+          </label>
+          <input type="hidden" id="time" name="time" />
 
-                    <div>
-                        <label class="sbs"><input id="free" type="radio" name="membership">NP Membership</label>
-                        <label class="sbs"><input id="bronze" type="radio" name="membership">Bronze Membership</label>
-                        <label class="sbs"><input id="silver" type="radio" name="membership">Silver Membership</label>
-                        <label class="sbs"><input id="gold" type="radio" name="membership">Gold Membership</label>
-                    </div>
-
-                    <div class="benefit">
-                        <h5>Price: <span id="price"></span></h5>
-                        <table>
-                            <tr>
-                                <th>Benefits:</th>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td id="one">Website Ads</td>
-
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td id="two">Free Meal</td>
-
-                            </tr>
-
-                            <tr>
-                                <td></td>
-                                <td id="three">Website Ads</td>
-                            </tr>
-
-                        </table>
-
-
-
-
-                    </div>
-                </div>
-
-                <label class="blockview">Business Description <textarea name="description" rows="4" cols="50"></textarea></label>
-                <input type="hidden" id="time" name="time">
-
-                <input id="submitBtn" type="submit" value="Join Club">
-
-
-
-
-
-
-
-
-
-            </form>
-
-
-
-
-
-        </section>
-
-
+          <input id="submitBtn" type="submit" value="Join Club" />
+        </form>
+      </section>
     </main>
 
     <footer>
-        <div class="address">
-            <a href="index.html"><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"></a>
-            <div>
-                <h3>Chamber of Commerce</h3>
-                <p>4 Ikot-Ekpene Rd Uyo<br> Akwa Ibom, Nigeria</p>
-            </div>
+      <div class="address">
+        <a href="index.html"
+          ><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"
+        /></a>
+        <div>
+          <h3>Chamber of Commerce</h3>
+          <p>
+            4 Ikot-Ekpene Rd Uyo<br />
+            Akwa Ibom, Nigeria
+          </p>
         </div>
-        <div class="contact">
-            <p><strong><a href="mailto:info@uyocommerce.com" >info@uyocommerce.com </a><br> <a href="tel:+2347039569875">(234) 070-3956-9875</a> <br><a href="https://goo.gl/maps/1NERacNrkeuGszqy8" target="_blank"> 📌Location Map</a></strong></p>
-        </div>
-        <div class="credit">
-            <p class="fb"></p>
-            <p class="fm"></p>
-            <p class="fl"></p>
-
-        </div>
+      </div>
+      <div class="contact">
+        <p>
+          <strong
+            ><a href="mailto:info@uyocommerce.com">info@uyocommerce.com </a
+            ><br />
+            <a href="tel:+2347039569875">(234) 070-3956-9875</a> <br /><a
+              href="https://goo.gl/maps/1NERacNrkeuGszqy8"
+              target="_blank"
+            >
+              📌Location Map</a
+            ></strong
+          >
+        </p>
+      </div>
+      <div class="credit">
+        <p class="fb">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber <br />
+            Ojo-Osasere Marcus <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fm">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber | Ojo-Osasere
+            Marcus | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fl">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber | Ojo-Osasere
+            Marcus | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+        </p>
+      </div>
     </footer>
     <script src="js/script.js"></script>
     <script src="js/benefits.js"></script>
-
-
-
-</body>
-
-
+  </body>
 </html>

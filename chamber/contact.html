@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--edit this later-->
-    <meta name="description" content="Uyo Chamber of Commerce Homepage" />
-    <title>Uyo Chamber of Commerce</title>
+    <meta name="description" content="Uyo Chamber of Commerce Contact Page" />
+    <title>Uyo Chamber of Commerce - Contact</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -34,7 +34,7 @@
         <button id="ham"><span>&#9776;</span><span>X</span></button>
         <ul id="menu">
           <li>
-            <strong><a id="home" href="#">Home</a></strong>
+            <strong><a id="home" href="index.html">Home</a></strong>
           </li>
           <li>
             <strong><a id="discover" href="discover.html">Discover</a></strong>
@@ -48,7 +48,7 @@
             <strong><a id="join" href="join.html">Join</a></strong>
           </li>
           <li>
-            <strong><a id="contact" href="contact.html">Contact</a></strong>
+            <strong><a id="contact" href="#">Contact</a></strong>
           </li>
         </ul>
       </nav>
@@ -63,33 +63,91 @@
       </div>
     </header>
 
-    <main id="main">
-      <div class="event">Event</div>
-      <div class="weather">
-        <h5>Weather</h5>
-        <div class="icon">
-          <img id="icon" src="images/weather.png" alt="weather icon" />
-          <p><span id="temp"></span>°C</p>
+    <main id="contactmain">
+      <section class="contact-page">
+        <h3>Have Some Questions?</h3>
+        <div class="contact-card">
+          <div class="contact-address">
+            <div class="address-grid">
+              <img src="./images/NG.png" alt="Flag of Nigeria" />
+              <h5 class="contact-nig">Nigeria :</h5>
+            </div>
+            <p>4 Ikot-Ekpene Rd, Uyo. Akwa Ibom.</p>
+          </div>
+          <div class="contact-grid">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              src="https://assets5.lottiefiles.com/packages/lf20_phfi20ra.json"
+              background="transparent"
+              speed="0.4"
+              loop
+              class="envelop"
+              autoplay
+            ></lottie-player>
+
+            <form
+              class="contact-form"
+              action="message-received.html"
+              method="get"
+            >
+              <label class="contact-blockview"
+                >First Name
+                <input
+                  type="text"
+                  placeholder="First name"
+                  name="fname"
+                  required
+              /></label>
+
+              <div class="gap">
+                <label class="contact-blockview"
+                  >Last Name
+                  <input
+                    type="text"
+                    placeholder="Last name"
+                    name="lname"
+                    required
+                /></label>
+              </div>
+              <div class="gap">
+                <label class="contact-blockview"
+                  >Email
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="someone@example.com"
+                    required
+                /></label>
+              </div>
+              <div class="gap">
+                <label class="contact-blockview"
+                  >Business Name
+                  <input type="text" name="businessname" required
+                /></label>
+              </div>
+              <div class="gap">
+                <label class="contact-blockview"
+                  >Your questions...
+                  <textarea
+                    name="description"
+                    rows="4"
+                    cols="50"
+                    required
+                  ></textarea>
+                </label>
+              </div>
+
+              <input type="hidden" id="time" name="time" />
+
+              <input
+                id="contact-submitBtn"
+                type="submit"
+                value="Send Message"
+              />
+            </form>
+          </div>
         </div>
-        <p id="icon-desc"></p>
-        <hr class="temo-div" />
-        <p>Wind Speed: <span id="speed"></span>km/h</p>
-        <p id="chill-output"></p>
-      </div>
-      <div class="join">Join</div>
-      <div class="hero">
-        <picture class="hero-image">
-          <source media="(max-width: 500px)" srcset="images/hero500.jpg" />
-          <source media="(max-width: 1079px)" srcset="images/hero1079.jpg" />
-          <img src="images/hero540.jpg" alt="" />
-        </picture>
-      </div>
-      <div class="new">News Release</div>
-      <div class="spot">
-        <div class="spotlight1">Spotlight 1</div>
-        <div class="spotlight2">Spotlight 2</div>
-        <div class="spotlight3">Spotlight 3</div>
-      </div>
+      </section>
     </main>
 
     <footer>
@@ -142,13 +200,12 @@
             <span class="fMod"></span>
           </strong>
         </p>
-        <p>
-          Weather source
-          <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
-        </p>
       </div>
     </footer>
-    <script src="js/script.js" defer></script>
-    <script src="js/windchill.js" defer></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d98c5f4861.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

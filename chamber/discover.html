@@ -1,158 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--edit this later-->
-    <meta name="description" content="Uyo Chamber of Commerce Discovery Page">
+    <meta name="description" content="Uyo Chamber of Commerce Discovery Page" />
     <title>Uyo Chamber of Commerce - Discover</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="icon" href="images/favicon.ico">
-</head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
 
-<body id="content">
-
+  <body id="content">
     <header>
-        <div class="logo-container">
-            <a href="index.html"><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"></a>
-            <h3>Chamber of Commerce</h3>
-        </div>
-        <div class="socials">
-            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
-            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image"></a>
-        </div>
-        <nav class="primary">
-            <button id="ham"><span>&#9776;</span><span>X</span></button>
-            <ul id="menu">
-                <li><strong><a id="home" href="index.html">Home</a></strong></li>
-                <li><strong><a id="discover" href="#">Discover</a></strong></li>
-                <li><strong><a id="directory" href="directory.html">Directory</a></strong></li>
-                <li><strong><a id="join" href="join.html">Join</a></strong></li>
-                <li><strong><a id="contact" href="#">Contact</a></strong></li>
+      <div class="logo-container">
+        <a href="index.html"
+          ><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"
+        /></a>
+        <h3>Chamber of Commerce</h3>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com"
+          ><img src="images/facebook.png" alt="Facebook image"
+        /></a>
+        <a href="https://www.linkedin.com"
+          ><img src="images/linkedin.png" alt="LinkedIn image"
+        /></a>
+      </div>
+      <nav class="primary">
+        <button id="ham"><span>&#9776;</span><span>X</span></button>
+        <ul id="menu">
+          <li>
+            <strong><a id="home" href="index.html">Home</a></strong>
+          </li>
+          <li>
+            <strong><a id="discover" href="#">Discover</a></strong>
+          </li>
+          <li>
+            <strong
+              ><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+          </li>
+          <li>
+            <strong><a id="contact" href="contact.html">Contact</a></strong>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="date"></div>
 
-            </ul>
-        </nav>
-
-        <div class="date">
-
-        </div>
-
-        <div class="banner">
-            <h4>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h4>
-        </div>
+      <div class="banner">
+        <h4>
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m.
+        </h4>
+      </div>
     </header>
 
     <main id="discovermain">
-        <div class="top">
-            <h2>Discover Uyo</h2>
-            <p>Visiting a city for the first time can be difficult and confusing, Here are some of the most exciting places in uyo you should be eager to visit. They include historical sites, cultural buildings, beach, mall and even a learning site.</p>
+      <div class="top">
+        <h2>Discover Uyo</h2>
+        <p>
+          Visiting a city for the first time can be difficult and confusing,
+          Here are some of the most exciting places in uyo you should be eager
+          to visit. They include historical sites, cultural buildings, beach,
+          mall and even a learning site.
+        </p>
 
-            <h5>Days Since Last Visits: <span class="visits"></span></h5>
+        <h5>Days Since Last Visits: <span class="visits"></span></h5>
+      </div>
+
+      <section id="gallery">
+        <img
+          class="overlay"
+          src="images/placeholder.png"
+          data-src="images/hall800.jpg"
+          alt="Ibom Hall"
+        />
+
+        <div class="blue">
+          <h4>Ibom Mall</h4>
+          <p>
+            This is a state-owned event centre where social, economic and
+            political events are hosted. A magnificent structure with
+            state-of-art facilities, the hall has played host to a number of
+            important events. It is also a popular landmark in the town.It is
+            located at IBB Avenue,uyo
+          </p>
         </div>
 
-        <section id="gallery">
+        <img
+          src="images/placeholder.png"
+          data-src="images/lemeridien800.jpg"
+          alt="Le Meridien"
+        />
+        <div class="light-blue">
+          <h4>Le Meridien Resort</h4>
+          <p>
+            Ibom Icon Hotel & Golf Resort has rooms decorated with lush essence
+            and comfort. They are categorised into Executive Room, Honeymoon
+            Package, Deluxe Room, Junior Suite, Executive Suite and Diplomatic.
+            The rooms are equipped with air conditioners, and more
+          </p>
+        </div>
 
+        <img
+          src="images/placeholder.png"
+          data-src="images/ibeno800.jpg"
+          alt="Ibeno Beach"
+        />
+        <div class="light-blue">
+          <h4>Ibeno Beach</h4>
+          <p>
+            Ibeno Beach stretches for about 30 kilometres from Ibeno to James
+            Town along the Atlantic coastline of Akwa Ibom State in Nigeria. It
+            is said to be the longest beach in West Africa. With its beautiful
+            coastline, Ibeno provides endless natural facilities for tourism,
+            water sporting, beach soccer and general boating.
+          </p>
+        </div>
 
+        <img
+          src="images/placeholder.png"
+          data-src="images/museum800.jpg"
+          alt="Ibom Museum"
+        />
+        <div class="blue">
+          <h4>Ibom Museum</h4>
+          <p>
+            This edifice is located in the city of Uyo, in the famous Udo Udoma
+            Avenue. The museum has a notable collection of historic pictures and
+            it was an inspiration of Arc Victor Attah the past Governor of Akwa
+            Ibom state. It was commission by Arc (Obong) Victor Attah on
+            Tuesday, 22nd May 2007
+          </p>
+        </div>
 
-            <img class="overlay" src="images/placeholder.png" data-src="images/hall800.jpg" alt="Ibom Hall">
+        <img
+          src="images/placeholder.png"
+          data-src="images/plaza800.jpg"
+          alt="Ibom Plaza"
+        />
+        <div class="light-blue">
+          <h4>Ibom Plaza</h4>
+          <p>
+            Located in the heart of Uyo, Ibom plaza is a wonderful place for
+            people to meet and connect. It has a clean open environment with
+            seats made like staircase. A big screen is also available here for
+            residents to watch sports or other events together. This was created
+            to increase bond amongst residents
+          </p>
+        </div>
 
-            <div class="blue">
-                <h4>Ibom Mall</h4>
-                <p>This is a state-owned event centre where social, economic and political events are hosted. A magnificent structure with state-of-art facilities, the hall has played host to a number of important events. It is also a popular landmark in
-                    the town.It is located at IBB Avenue,uyo</p>
-            </div>
+        <img
+          src="images/placeholder.png"
+          data-src="images/tropicana800.jpg"
+          alt="Ibom Tropicana"
+        />
+        <div class="blue">
+          <h4>Ibom Tropicana</h4>
+          <p>
+            Surrounded by banks and a military barrack, this mall is at the
+            right spot. It was recently renovated in 2020 to make more space in
+            it. It has everything a mall has from hair saloon, escalators,
+            cinemas to several shopping sections to make purchases
+          </p>
+        </div>
 
+        <img
+          src="images/placeholder.png"
+          data-src="images/stadium800.jpg"
+          alt="Ibom Stadium"
+        />
+        <div class="light-blue">
+          <h4>Ibom Stadium</h4>
+          <p>
+            The stadium which currently is the most sophisticated in Nigeria was
+            a goodbye gift by the last governor to the state. It is also
+            referred to as the the "Nest of Champions" and the seat capacity is
+            35,000. A lot of international matches occur here and can be fun for
+            sport lovers
+          </p>
+        </div>
 
-            <img src="images/placeholder.png" data-src="images/lemeridien800.jpg" alt="Le Meridien">
-            <div class="light-blue">
-                <h4>Le Meridien Resort</h4>
-                <p>Ibom Icon Hotel & Golf Resort has rooms decorated with lush essence and comfort. They are categorised into Executive Room, Honeymoon Package, Deluxe Room, Junior Suite, Executive Suite and Diplomatic. The rooms are equipped with air conditioners,
-                    and more</p>
-            </div>
+        <img
+          src="images/placeholder.png"
+          data-src="images/elibrary800.jpg"
+          alt="Ibom E-library"
+        />
+        <div class="blue">
+          <h4>Ibom E-library</h4>
+          <p>
+            The Ibom Electronic library takes library experience to the next
+            level, being the first in Africa as at the time it was constructed.
+            The library has a capacity of over 1500 computer seats and each has
+            software that has the latest information on all aspects of study
+          </p>
+        </div>
 
-            <img src="images/placeholder.png" data-src="images/ibeno800.jpg" alt="Ibeno Beach">
-            <div class="light-blue">
-                <h4>Ibeno Beach</h4>
-                <p>Ibeno Beach stretches for about 30 kilometres from Ibeno to James Town along the Atlantic coastline of Akwa Ibom State in Nigeria. It is said to be the longest beach in West Africa. With its beautiful coastline, Ibeno provides endless
-                    natural facilities for tourism, water sporting, beach soccer and general boating.</p>
-            </div>
+        <img
+          src="images/placeholder.png"
+          data-src="images/uniuyo800.jpg"
+          alt="University of Uyo"
+        />
+        <div class="light-blue">
+          <h4>University of Uyo</h4>
 
-            <img src="images/placeholder.png" data-src="images/museum800.jpg" alt="Ibom Museum">
-            <div class="blue">
-                <h4>Ibom Museum</h4>
-                <p>This edifice is located in the city of Uyo, in the famous Udo Udoma Avenue. The museum has a notable collection of historic pictures and it was an inspiration of Arc Victor Attah the past Governor of Akwa Ibom state. It was commission
-                    by Arc (Obong) Victor Attah on Tuesday, 22nd May 2007</p>
-            </div>
-
-            <img src="images/placeholder.png" data-src="images/plaza800.jpg" alt="Ibom Plaza">
-            <div class="light-blue">
-                <h4>Ibom Plaza</h4>
-                <p>Located in the heart of Uyo, Ibom plaza is a wonderful place for people to meet and connect. It has a clean open environment with seats made like staircase. A big screen is also available here for residents to watch sports or other events
-                    together. This was created to increase bond amongst residents</p>
-            </div>
-
-            <img src="images/placeholder.png" data-src="images/tropicana800.jpg" alt="Ibom Tropicana">
-            <div class="blue">
-                <h4>Ibom Tropicana</h4>
-                <p>Surrounded by banks and a military barrack, this mall is at the right spot. It was recently renovated in 2020 to make more space in it. It has everything a mall has from hair saloon, escalators, cinemas to several shopping sections to
-                    make purchases</p>
-            </div>
-
-            <img src="images/placeholder.png" data-src="images/stadium800.jpg" alt="Ibom Stadium">
-            <div class="light-blue">
-                <h4>Ibom Stadium</h4>
-                <p>The stadium which currently is the most sophisticated in Nigeria was a goodbye gift by the last governor to the state. It is also referred to as the the "Nest of Champions" and the seat capacity is 35,000. A lot of international matches
-                    occur here and can be fun for sport lovers</p>
-            </div>
-
-            <img src="images/placeholder.png" data-src="images/elibrary800.jpg" alt="Ibom E-library">
-            <div class="blue">
-                <h4>Ibom E-library</h4>
-                <p>The Ibom Electronic library takes library experience to the next level, being the first in Africa as at the time it was constructed. The library has a capacity of over 1500 computer seats and each has software that has the latest information
-                    on all aspects of study</p>
-            </div>
-
-            <img src="images/placeholder.png" data-src="images/uniuyo800.jpg" alt="University of Uyo">
-            <div class="light-blue">
-                <h4>University of Uyo</h4>
-
-                <p>Although being a federal university, it resides in the Nwaniba area of Uyo and can be a great place to visit. The department of Art does a great job to litre the school campus with wonderful sculptures they make from their projects and
-                    they look pleasing to the eyes</p>
-            </div>
-
-        </section>
-
-
+          <p>
+            Although being a federal university, it resides in the Nwaniba area
+            of Uyo and can be a great place to visit. The department of Art does
+            a great job to litre the school campus with wonderful sculptures
+            they make from their projects and they look pleasing to the eyes
+          </p>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="address">
-            <a href="index.html"><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"></a>
-            <div>
-                <h3>Chamber of Commerce</h3>
-                <p>4 Ikot-Ekpene Rd Uyo<br> Akwa Ibom, Nigeria</p>
-            </div>
+      <div class="address">
+        <a href="index.html"
+          ><img src="images/logo.webp" alt="Uyo Chamber of Commerce logo"
+        /></a>
+        <div>
+          <h3>Chamber of Commerce</h3>
+          <p>
+            4 Ikot-Ekpene Rd Uyo<br />
+            Akwa Ibom, Nigeria
+          </p>
         </div>
-        <div class="contact">
-            <p><strong><a href="mailto:info@uyocommerce.com" >info@uyocommerce.com </a><br> <a href="tel:+2347039569875">(234) 070-3956-9875</a> <br><a href="https://goo.gl/maps/1NERacNrkeuGszqy8" target="_blank"> 📌Location Map</a></strong></p>
-        </div>
-        <div class="credit">
-            <p class="fb"></p>
-            <p class="fm"></p>
-            <p class="fl"></p>
-
-        </div>
+      </div>
+      <div class="contact">
+        <p>
+          <strong
+            ><a href="mailto:info@uyocommerce.com">info@uyocommerce.com </a
+            ><br />
+            <a href="tel:+2347039569875">(234) 070-3956-9875</a> <br /><a
+              href="https://goo.gl/maps/1NERacNrkeuGszqy8"
+              target="_blank"
+            >
+              📌Location Map</a
+            ></strong
+          >
+        </p>
+      </div>
+      <div class="credit">
+        <p class="fb">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber <br />
+            Ojo-Osasere Marcus <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fm">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber | Ojo-Osasere
+            Marcus | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fl">
+          <strong
+            >&copy; <span class="fyear"></span> Uyo Chammber | Ojo-Osasere
+            Marcus | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+        </p>
+      </div>
     </footer>
     <script src="js/script.js"></script>
     <script src="js/lazyload.js"></script>
-
-</body>
-
-
+  </body>
 </html>

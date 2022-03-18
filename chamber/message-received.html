@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--edit this later-->
-    <meta name="description" content="Uyo Chamber of Commerce Homepage" />
-    <title>Uyo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Uyo Chamber of Commerce Message received Page"
+    />
+    <title>Uyo Chamber of Commerce - Message received</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -34,7 +37,7 @@
         <button id="ham"><span>&#9776;</span><span>X</span></button>
         <ul id="menu">
           <li>
-            <strong><a id="home" href="#">Home</a></strong>
+            <strong><a id="home" href="index.html">Home</a></strong>
           </li>
           <li>
             <strong><a id="discover" href="discover.html">Discover</a></strong>
@@ -63,33 +66,13 @@
       </div>
     </header>
 
-    <main id="main">
-      <div class="event">Event</div>
-      <div class="weather">
-        <h5>Weather</h5>
-        <div class="icon">
-          <img id="icon" src="images/weather.png" alt="weather icon" />
-          <p><span id="temp"></span>°C</p>
-        </div>
-        <p id="icon-desc"></p>
-        <hr class="temo-div" />
-        <p>Wind Speed: <span id="speed"></span>km/h</p>
-        <p id="chill-output"></p>
-      </div>
-      <div class="join">Join</div>
-      <div class="hero">
-        <picture class="hero-image">
-          <source media="(max-width: 500px)" srcset="images/hero500.jpg" />
-          <source media="(max-width: 1079px)" srcset="images/hero1079.jpg" />
-          <img src="images/hero540.jpg" alt="" />
-        </picture>
-      </div>
-      <div class="new">News Release</div>
-      <div class="spot">
-        <div class="spotlight1">Spotlight 1</div>
-        <div class="spotlight2">Spotlight 2</div>
-        <div class="spotlight3">Spotlight 3</div>
-      </div>
+    <main id="discovermain">
+      <section class="thanks">
+        <h3>Message Received</h3>
+        <p>
+          We have received your message and would reach out to you within 24hrs
+        </p>
+      </section>
     </main>
 
     <footer>
@@ -142,13 +125,8 @@
             <span class="fMod"></span>
           </strong>
         </p>
-        <p>
-          Weather source
-          <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
-        </p>
       </div>
     </footer>
-    <script src="js/script.js" defer></script>
-    <script src="js/windchill.js" defer></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
