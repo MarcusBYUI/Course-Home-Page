@@ -35,11 +35,21 @@ const list_maker = (number) => {
 function make_spotlight(businesses) {
   //A function that creates and returns 3 business items
 
-  let bizList = list_maker(12);
+  let goldSIlverBusinesses = [];
 
-  const bizOne = businesses[bizList[0]];
-  const bizTwo = businesses[bizList[1]];
-  const bizThree = businesses[bizList[2]];
+  for (let i = 0; i < businesses.length; i++) {
+    const bizItem = businesses[i];
+    bizItem["membership"] === "gold" || bizItem["membership"] === "silver"
+      ? goldSIlverBusinesses.push(bizItem)
+      : {};
+  }
+
+  // pick a gold or silver member at random
+  bizList = list_maker(goldSIlverBusinesses.length);
+
+  const bizOne = goldSIlverBusinesses[bizList[0]];
+  const bizTwo = goldSIlverBusinesses[bizList[1]];
+  const bizThree = goldSIlverBusinesses[bizList[2]];
 
   return `<div class="spotlight1">
           <h4>${bizOne.name}</h4>

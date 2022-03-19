@@ -42,7 +42,8 @@
       "street": "4 Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0813 588 0220",
-      "website": "https://enistores.com"
+      "website": "https://enistores.com",
+      "membership": "gold"
     },
     {
       "name": "Crunchies Fast Food",
@@ -52,7 +53,8 @@
       "street": "142 Aka Road",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0907 703 8947",
-      "website": "https://crunchiesltd.com/"
+      "website": "https://crunchiesltd.com/",
+      "membership": "gold"
     },
     {
       "name": "Whitebridge Global Ltd",
@@ -62,7 +64,8 @@
       "street": "114 Udo Udoma Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0803 749 2675",
-      "website": "whitebridgeconsulting.com"
+      "website": "whitebridgeconsulting.com",
+      "membership": "gold"
     },
     {
       "name": "IBBIL Computers",
@@ -72,7 +75,8 @@
       "street": "80 Aka Road",
       "city": " Uyo, Akwa Ibom Nigeria",
       "number": "0708 543 4434",
-      "website": "http://ibbilcomputers.com"
+      "website": "http://ibbilcomputers.com",
+      "membership": "gold"
     },
     {
       "name": "Kilimanjaro Restaurants",
@@ -82,7 +86,8 @@
       "street": "165 Oron Road",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0807 509 1477",
-      "website": "https//kilimanjaro-restaurants.com/"
+      "website": "https//kilimanjaro-restaurants.com/",
+      "membership": "silver"
     },
     {
       "name": "Starthub Technology Ltd",
@@ -92,7 +97,8 @@
       "street": "Suite G11, Ibom e-Library",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0909 000 9216",
-      "website": "https://starthub.com.ng"
+      "website": "https://starthub.com.ng",
+      "membership": "silver"
     },
     {
       "name": "Radiant Oak Intelligence",
@@ -102,7 +108,8 @@
       "street": "135A Edet Akpan Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0810 109 7101",
-      "website": "http://www.radiantoakng.com"
+      "website": "http://www.radiantoakng.com",
+      "membership": "np"
     },
     {
       "name": "PHED Uyo",
@@ -112,7 +119,8 @@
       "street": "No.3 Ekpeyong Street",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0805 029 3215",
-      "website": "http://www.phed.com.ng"
+      "website": "http://www.phed.com.ng",
+      "membership": "bronze"
     },
     {
       "name": "ICMA Services",
@@ -122,7 +130,8 @@
       "street": "PLot 21, Unit G, Ewet Housing Estate",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0901 413 6067",
-      "website": "http://www.icmaservices.com"
+      "website": "http://www.icmaservices.com",
+      "membership": "bronze"
     },
     {
       "name": "Accent Digital Resources",
@@ -132,7 +141,8 @@
       "street": "28B Itu Road",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0808 678 3266",
-      "website": "http://www.accentdigitalresources.com"
+      "website": "http://www.accentdigitalresources.com",
+      "membership": "bronze"
     },
     {
       "name": "Ibomstore",
@@ -142,7 +152,8 @@
       "street": "No 11 Iboko Street",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "07011 110 034",
-      "website": "https://www.ibomstore.com"
+      "website": "https://www.ibomstore.com",
+      "membership": "bronze"
     },
     {
       "name": "AA Car Rescue",
@@ -152,7 +163,8 @@
       "street": "132 Nsikak Eduok Avenue",
       "city": "Uyo, Akwa Ibom Nigeria",
       "number": "0802 730 6799",
-      "website": "http://www.aarescuenigeria.com"
+      "website": "http://www.aarescuenigeria.com",
+      "membership": "silver"
     }
   ]
 }
