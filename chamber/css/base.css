@@ -177,13 +177,16 @@ header ul a:active {
   padding: 20px 5px;
   background-color: #2c7da0;
 }
-.event p {
+.event li {
   margin-bottom: 3px;
+  font-family: "Dongle", sans-serif;
+  font-size: 23px;
+  list-style: none;
 }
 .event-date {
   font-size: 18px;
   font-style: italic;
-  color: #a9d6e5;
+  color: #252525;
 }
 
 .weather {
@@ -307,7 +310,7 @@ header ul a:active {
 .spotlight1 h5,
 .spotlight2 h5,
 .spotlight3 h5 {
-  color: rgb(240, 240, 240);
+  color: rgb(20, 20, 20);
   font-size: 14px;
   margin: 15px 45px;
 }
@@ -324,7 +327,7 @@ header ul a:active {
 }
 .spot-number a {
   text-decoration: none;
-  color: #a9d6e5;
+  color: rgb(20, 20, 20);
 }
 
 /* 
@@ -366,7 +369,7 @@ footer {
 .contact a {
   text-decoration: none;
   color: #012a4a;
-  line-height: 30px;
+  line-height: 36px;
 }
 
 .credit {
