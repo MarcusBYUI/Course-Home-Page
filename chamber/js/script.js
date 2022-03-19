@@ -3,8 +3,8 @@ function toggleMenu() {
   document.querySelector("#ham").classList.toggle("open");
 }
 
-const x = document.querySelector("#ham");
-x.onclick = toggleMenu;
+const menuHam = document.querySelector("#ham");
+menuHam.addEventListener("click", toggleMenu);
 
 const fyear = document.querySelectorAll(".fyear");
 const fMod = document.querySelectorAll(".fMod");
