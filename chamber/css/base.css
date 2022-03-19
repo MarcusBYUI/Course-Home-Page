@@ -191,7 +191,7 @@ header ul a:active {
   padding: 0 5px;
   background-color: white;
   color: #2c7da0;
-  padding: 15px 15% 5px 15%;
+  padding: 25px 15% 25px 15%;
   background-color: #2c7da0;
 }
 
@@ -236,8 +236,9 @@ header ul a:active {
 
 .join {
   display: none;
-  padding: 20px 5px;
-  background-color: #2c7da0;
+}
+.join img {
+  width: 100%;
 }
 
 .hero {
@@ -323,6 +324,7 @@ header ul a:active {
 }
 .spot-number a {
   text-decoration: none;
+  color: #a9d6e5;
 }
 
 /* 

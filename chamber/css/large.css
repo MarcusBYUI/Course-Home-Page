@@ -74,6 +74,7 @@
   .weather {
     grid-column: 1/2;
     grid-row: 2;
+    padding-top: 40px;
   }
   .join {
     grid-column: 1/2;

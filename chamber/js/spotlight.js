@@ -1,19 +1,45 @@
 const directoryURL = "./data/data.json";
 
-function make_spotlight(businesses) {
-  //Create list items from each item of the fetched list
+function make_news(news) {
+  //A function that creates and returns 3 news items
+  let newsList = list_maker(8);
+  const newsOne = news[newsList[0]];
+  const newsTwo = news[newsList[1]];
+  const newsThree = news[newsList[2]];
+
+  return ` <ul>
+              <li>
+                <a href="${newsOne.link}" target="_blank">${newsOne.title}</a>
+              </li>
+              <li>
+                <a href="${newsTwo.link}" target="_blank">${newsTwo.title}</a>
+              </li>
+              <li>
+                <a href="${newsThree.link}" target="_blank">${newsThree.title}</a>
+              </li>
+            </ul>`;
+}
+
+const list_maker = (number) => {
+  //A function that creates and returnsa list that contains 3 random numbers
+
   let numList = [];
 
   while (numList.length < 3) {
-    num = Math.trunc(Math.random() * 12);
+    num = Math.trunc(Math.random() * number);
     !numList.includes(num) && numList.push(num);
-    console.log(num);
   }
 
-  const bizOne = businesses[numList[0]];
-  const bizTwo = businesses[numList[1]];
-  const bizThree = businesses[numList[2]];
-  console.log(numList);
+  return numList;
+};
+function make_spotlight(businesses) {
+  //A function that creates and returns 3 business items
+
+  let bizList = list_maker(12);
+
+  const bizOne = businesses[bizList[0]];
+  const bizTwo = businesses[bizList[1]];
+  const bizThree = businesses[bizList[2]];
 
   return `<div class="spotlight1">
           <h4>${bizOne.name}</h4>
@@ -47,8 +73,11 @@ fetch(directoryURL)
   })
   .then((data) => {
     let businesses = data["businesses"];
+    let news = data["news"];
 
     const spot = make_spotlight(businesses);
+    const pageNews = make_news(news);
 
     document.querySelector(".spot").innerHTML = spot;
+    document.querySelector(".new").innerHTML += pageNews;
   });
