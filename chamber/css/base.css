@@ -186,7 +186,7 @@ header ul a:active {
 .event-date {
   font-size: 18px;
   font-style: italic;
-  color: #252525;
+  color: #012a4a;
 }
 
 .weather {
@@ -310,7 +310,7 @@ header ul a:active {
 .spotlight1 h5,
 .spotlight2 h5,
 .spotlight3 h5 {
-  color: rgb(20, 20, 20);
+  color: #012a4a;
   font-size: 14px;
   margin: 15px 45px;
 }
@@ -327,7 +327,7 @@ header ul a:active {
 }
 .spot-number a {
   text-decoration: none;
-  color: rgb(20, 20, 20);
+  color: rgb(10, 0, 155);
 }
 
 /* 
