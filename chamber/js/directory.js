@@ -5,7 +5,7 @@ const medium = window.matchMedia("(min-width:545px) and (max-width: 1079px)");
 let width = window.innerWidth;
 
 function make_cards(business) {
-    //Create cards from each item of the fetched list
+  //Create cards from each item of the fetched list
   return `<div class="card">
             <img src = ${business.imageurl} alt = ${business.name} loading="lazy">
             <address>${business.street}, ${business.city}</address>
@@ -15,7 +15,7 @@ function make_cards(business) {
 }
 
 function make_list(business) {
-    //Create list items from each item of the fetched list
+  //Create list items from each item of the fetched list
 
   return `
     <tr>
@@ -27,33 +27,31 @@ function make_list(business) {
 }
 
 class setDefView {
-    // initialzes with a def view then the method setView checks to set a default view on resize but prevent the chrome mobile
-    // scroll resize from triggering the resize event
+  // initialzes with a def view then the method setView checks to set a default view on resize but prevent the chrome mobile
+  // scroll resize from triggering the resize event
 
-    constructor(medium, list){
-        this.list = list;
+  constructor(medium, list) {
+    this.list = list;
 
-        if (medium.matches) {
-            // If media query matches
-            listView(this.list);
-        } else {
-            gridView(this.list);
-        }
-
+    if (medium.matches) {
+      // If media query matches
+      listView(this.list);
+    } else {
+      gridView(this.list);
     }
+  }
 
-    setView(medium) {
-        //checks the viewport and set the defailt view either grid or list
-        if(window.innerWidth != width){
-            if (medium.matches) {
-                // If media query matches
-                listView(this.list);
-            } else {
-                gridView(this.list);
-            }
-        }
-
+  setView(medium) {
+    //checks the viewport and set the defailt view either grid or list
+    if (window.innerWidth != width) {
+      if (medium.matches) {
+        // If media query matches
+        listView(this.list);
+      } else {
+        gridView(this.list);
+      }
     }
+  }
 }
 
 // Fetch the JSON data for the directory
@@ -62,7 +60,6 @@ fetch(directoryURL)
     return response.ok ? response.json() : console.log("error");
   })
   .then((data) => {
-    console.table(data);
     let businesses = data["businesses"];
 
     //A calls the funtion that sets the default view for medium screen as list ans leaves the rest as cards
@@ -80,7 +77,7 @@ fetch(directoryURL)
   });
 
 function gridView(business) {
-// change button color to currently active
+  // change button color to currently active
   let gridBtn = document.querySelector("#grid-view");
   let listBtn = document.querySelector("#list-view");
 
@@ -97,14 +94,13 @@ function gridView(business) {
 }
 
 function listView(business) {
-
-    // change button color to currently active
+  // change button color to currently active
   let gridBtn = document.querySelector("#grid-view");
   let listBtn = document.querySelector("#list-view");
 
   gridBtn.style.backgroundColor = "#A9D6E5";
   listBtn.style.backgroundColor = "white";
-    //sends the list view to the html page
+  //sends the list view to the html page
 
   cardList.innerHTML = "";
 
@@ -114,4 +110,3 @@ function listView(business) {
   items.className = "list";
   cardList.appendChild(items);
 }
-
