@@ -1,4 +1,38 @@
 {
+  "news": [
+    {
+      "title": "Udom cautions rulers against igniting crisis",
+      "link": "https://guardian.ng/news/akwa-ibom-government-cautions-traditional-rulers-against-igniting-crisis/"
+    },
+    {
+      "title": "Sir Vic thrills fans at Uyo WAR Concert",
+      "link": "https://guardian.ng/saturday-magazine/weekend-beats/sir-vic-thrills-fans-at-uyo-war-concert/"
+    },
+    {
+      "title": "Over 120 players subscribe to Daily Trust golf",
+      "link": "https://guardian.ng/sport/over-120-players-subscribe-to-daily-trust-golf-tourney-in-uyo/"
+    },
+    {
+      "title": "FIFA slams 2-year ban on Cofine FC coach",
+      "link": "https://guardian.ng/sport/fifa-slams-2-year-ban-on-cofine-fc-coach-nff-says/"
+    },
+    {
+      "title": "Court acquits former council chair of murder charge",
+      "link": "https://guardian.ng/features/court-acquits-former-council-chair-of-murder-charge/"
+    },
+    {
+      "title": "Africa’s tourism development tops agenda",
+      "link": "https://guardian.ng/saturday-magazine/africas-tourism-development-tops-agenda-as-hotel-managers-meet-in-uyo/"
+    },
+    {
+      "title": "N11m fraud:EFCC arrests company director",
+      "link": "https://guardian.ng/news/efcc-arrests-company-director-over-alleged-n11-5m-investment-fraud/"
+    },
+    {
+      "title": "Inflationary pressure stopped economic growth in 2021",
+      "link": "https://guardian.ng/business-services/inflationary-pressure-took-shine-off-economic-growth-in-2021/"
+    }
+  ],
   "businesses": [
     {
       "name": "Eni Stores",
