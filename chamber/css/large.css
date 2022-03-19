@@ -134,8 +134,10 @@
     margin: 17px 0;
   }
   .spotlight1 h5 {
+    font-family: "Dongle", sans-serif;
+
     color: #012a4a;
-    font-size: 14px;
+    font-size: 25px;
     margin: 15px 45px;
   }
 

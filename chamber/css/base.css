@@ -182,10 +182,10 @@ header ul a:active {
   font-family: "Dongle", sans-serif;
   font-size: 23px;
   list-style: none;
+  line-height: 25px;
 }
 .event-date {
-  font-size: 18px;
-  font-style: italic;
+  font-size: 20px;
   color: #012a4a;
 }
 
@@ -311,8 +311,10 @@ header ul a:active {
 .spotlight2 h5,
 .spotlight3 h5 {
   color: #012a4a;
-  font-size: 14px;
+  font-size: 25px;
   margin: 15px 45px;
+  font-family: "Dongle", sans-serif;
+  line-height: 18px;
 }
 
 .spot-email {
