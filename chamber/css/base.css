@@ -372,6 +372,7 @@ footer {
   text-decoration: none;
   color: #012a4a;
   line-height: 36px;
+  text-decoration: underline;
 }
 
 .credit {
